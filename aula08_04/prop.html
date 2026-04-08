@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propriedades CSS</title>
+    <style>
+        h1 {
+            color: #990000;
+            background-color: #FC9804;
+            font-size: 500%;
+            border: 3px solid black;
+            padding: 10px;
+
+
+        }
+
+        body {
+            background-color: #FFCC66;
+            background-image: url("borboleta.avif");
+            background-attachment: scroll;
+            background-position: right bottom;
+            background-repeat: no-repeat;
+
+        }
+
+        table#t01 tr:nth-child(even) {
+            background-color: #eee;
+        }
+
+        table#t01 tr:nth-child(odd) {
+            background-color: hwb(234 43% 29%);
+        }
+
+        table#t01 th {
+            color: white;
+            background-color: black;
+        }
+
+        #caixa {
+            margin: 0 auto;
+            border: 10px dotted magenta;
+            max-width: 600px;
+            height: 600px;
+            padding: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Cabeçalho h1</h1>
+    <h1>Cabeçalho h1</h1>
+    <table id="t01">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+    </table>
+
+    <div id="caixa">
+        Eu sou uma caixa
+
+    </div>
+
+</body>
+
+</html>
