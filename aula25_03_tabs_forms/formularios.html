@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Dados Pessoais:</legend>
+            <label>Nome:</label><br>
+            <input type="text" name="nome" placeholder="Digite seu nome">
+            <br>
+            <label>Sobrenome:</label><br>
+            <input type="text" name="sobrenome" placeholder="Digite seu sobrenome">
+            <br>
+            <label>Senha:</label><br>
+            <input type="password" name="senha" maxlength="10" size="10">
+        </fieldset>
+        <br><br>
+       
+        <label>Digite sua opinião:</label><br>
+        <textarea row="100" cols="100"name="opiniao"></textarea>
+        <br>
+        Deseja publicar sua opinião?<br>
+        Sim<input type="radio" value="Sim" name="publicar">
+        Não<input type="radio" value="Não" name="publicar">
+        Talvez<input type="radio" value="Talvez" name="publicar">
+        <br>
+        <br>
+
+        Idiomas<br>
+        Inglês<input type="checkbox" checked value="Inglês" name="Idioma1">
+        Alemão<input type="checkbox"checked value="Alemão" name="Idioma2">
+        Italiano<input type="checkbox" value="Italiano" name="Idioma3">
+
+        <br>
+        Estado:
+        <select name="estado">
+            <option value="RS" >Rio Grande do Sul</option>
+            <option value="PR">Paraná</option>
+            <option value="SC">Santa Catarina</option>
+        </select>
+        
+        <br><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+    <p>Se você clicar no botão "Enviar", os dados do formulário serão enviados para a página chamada"/action_page.php".
+    </p>
+</body>
+
+</html>
