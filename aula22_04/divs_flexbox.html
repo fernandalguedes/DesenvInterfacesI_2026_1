@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+
+        header,
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            
+        }
+
+        .cards {
+            border: 2px solid black;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 5px 5px;
+
+        }
+
+        article {
+            background-color: #f1f1f1;
+            display: flex;
+            flex-direction: row;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            border: 1px solid black;
+
+        }
+
+        .foto {
+            text-align: center;
+        }
+
+        .texto {
+            text-align: justify;
+        }
+
+        .personagem {
+            font-weight: bold;
+            text-align: center;
+            padding: 10px;
+        }
+
+        @media screen and (max-width: 800px) {
+            article {
+                flex-direction: column;
+
+            }
+
+            .cards {
+                width: 95%;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <header>
+            Personagem Mario Bros
+        </header>
+        <article>
+            <div class="cards">
+                <div class="personagem">
+                    Mario Bros
+                </div>
+                <div class="foto">
+                    <img src="mario.webp" alt="Mario">
+                </div>
+                <div class="texto">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Accusamus saepe ullam odio alias mollitia labore consequatur sed
+                        numquam harum officiis quo dolor sequi ut blanditiis cupiditate iste sit,
+                        corrupti eius.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Accusamus saepe ullam odio alias mollitia labore consequatur sed
+                        numquam harum officiis quo dolor sequi ut blanditiis cupiditate iste sit,
+                        corrupti eius.</p>
+                </div>
+
+            </div>
+            <div class="cards">
+                <div class="personagem">
+                    Luigi Bros
+                </div>
+                <div class="foto">
+                    <img src="luigi.webp">
+                </div>
+
+                <div class="texto">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Accusamus saepe ullam odio alias mollitia labore consequatur sed
+                        numquam harum officiis quo dolor sequi ut blanditiis cupiditate iste sit,
+                        corrupti eius.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Accusamus saepe ullam odio alias mollitia labore consequatur sed
+                        numquam harum officiis quo dolor sequi ut blanditiis cupiditate iste sit,
+                        corrupti eius.</p>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="personagem">
+                    Princesa Peach
+                </div>
+                <div class="foto">
+                    <img src="peach.webp">
+                </div>
+
+                <div class="texto">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Accusamus saepe ullam odio alias mollitia labore consequatur sed
+                        numquam harum officiis quo dolor sequi ut blanditiis cupiditate iste sit,
+                        corrupti eius.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Accusamus saepe ullam odio alias mollitia labore consequatur sed
+                        numquam harum officiis quo dolor sequi ut blanditiis cupiditate iste sit,
+                        corrupti eius.</p>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="personagem">
+                    Cogumelo
+                </div>
+                <div class="foto">
+                    <img src="cogumelo.webp" alt="Cogumelo">
+                </div>
+                <div class="texto">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Accusamus saepe ullam odio alias mollitia labore consequatur sed
+                        numquam harum officiis quo dolor sequi ut blanditiis cupiditate iste sit,
+                        corrupti eius.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Accusamus saepe ullam odio alias mollitia labore consequatur sed
+                        numquam harum officiis quo dolor sequi ut blanditiis cupiditate iste sit,
+                        corrupti eius.</p>
+                </div>
+
+            </div>
+
+        </article>
+        <footer>
+            Site com cards de personagens do Mario Bros
+        </footer>
+
+    </main>
+
+
+</body>
+
+</html>
